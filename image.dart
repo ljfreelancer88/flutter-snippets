@@ -1,3 +1,13 @@
+/*
+project
+-assets
+ |- gallery-one.jpg
+*/
+Image.asset(  
+  'assets/gallery-one.jpg',
+  fit: BoxFit.cover
+),
+  
 Image.network(
   'https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/images/lake.jpg',
 )
