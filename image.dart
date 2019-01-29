@@ -26,6 +26,13 @@ FadeInImage.memoryNetwork(
   image: 'https://github.com/flutter/website/blob/master/src/_includes/code/layout/lakes/images/lake.jpg?raw=true',
 );
 
+// https://docs.flutter.io/flutter/painting/BoxDecoration-class.html
+BoxDecoraton (
+  color: Colors.orange,
+		image: DecorationImage('images/flowers.jpg),
+		fit: BoxFit.cover,
+),
+      
 // Example
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
