@@ -1,4 +1,4 @@
-// onPress
+// onPressed
 
 // onTap
 onTap: () { 
