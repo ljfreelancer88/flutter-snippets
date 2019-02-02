@@ -1,4 +1,4 @@
-Container(
+return Container(
   decoration: BoxDecoration(
     border: Border.all(
       color: Colors.black,
@@ -12,7 +12,7 @@ Container(
       fit: BoxFit.cover,
     ),    
   ),
-)
+);
 
 // References
 https://docs.flutter.io/flutter/painting/BoxDecoration-class.html
