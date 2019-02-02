@@ -18,10 +18,19 @@ AppBar(
     ),
   ],
   elevation: 0.0, // Hide the shadow
-  leading: {widget},
-  centerTitle: {bool}
+  leading: //widget,
+  centerTitle: //bool,
 )
 
+//Usage
+return Scaffold(
+  appBar: new AppBar(
+    title: new Text('My App Title'),
+    elevation: 0.0,
+  ),
+  body: //widget
+);
+  
 // References
 https://docs.flutter.io/flutter/material/AppBar/AppBar.html
 https://flutter.io/docs/catalog/samples/AppBar
