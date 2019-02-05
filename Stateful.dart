@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {  
   final String title;
   
-  // It can MyHomePage({this.title}) or MyHomePage(this.title)
+  // MyHomePage({this.title})
+  // MyHomePage(this.title)
+  // MyHomePage({@required this.title = 'Flutter is cool'})
   MyHomePage({Key key, @required this.title}) : super(key: key);
   
   @override
