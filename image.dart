@@ -10,6 +10,7 @@ Image.asset(
   
 Image.network(
   'https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/images/lake.jpg',
+  fit: BoxFit.cover //cover|fill|contain	
 )
 
 // Animated GIF
@@ -148,10 +149,14 @@ class MyApp extends StatelessWidget {
 }
 
 // https://flutter.io/docs/development/ui/assets-and-images
+// https://docs.flutter.io/flutter/painting/NetworkImage-class.html
 return DecoratedBox(
     decoration: BoxDecoration(
       image: DecorationImage(
         image: AssetImage('graphics/background.png'),
+        //argument must be example record.videoId.toString() or ${record.videoId}
+        //image: NetworkImage("https://i3.ytimg.com/vi/$videoId/sddefault.jpg"),
+        fit: BoxFit.cover,
         // ...
       ),
       // ...
