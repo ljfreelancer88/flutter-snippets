@@ -9,6 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Flutter Demo',
+      // Remove Debug on top right corner
+      // https://api.flutter.dev/flutter/material/MaterialApp-class.html
+      debugShowCheckedModeBanner: false,
       theme: new ThemeData(        
         primarySwatch: Colors.blue,
       ),
@@ -40,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(widget.title),
+        elevation: 0.0, //Remove shadow on Appbar
       ),
       body: new Center(
         child: new Text(
